@@ -10,10 +10,11 @@ namespace tomcMatijaPetlje
     {
         static void Main(string[] args)
         {
-            int brc = 0, prosjek = 0;
+            int brc = 0; 
+            float prosjek = 0;
             Console.WriteLine("Upisite ocjene. Kad ste gotovi upisite 0");
             pogreska:
-            int ocjena =Convert.ToInt32( Console.ReadKey());
+            float ocjena = Convert.ToInt32 (Console.ReadLine());
             
             do {
                 
